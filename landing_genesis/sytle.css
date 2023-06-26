@@ -1,7 +1,5 @@
-body{
-    height: 100%;
-    margin: 0;
-}
+/* style da pagina index */
+
 .bg{
     background-image: url(fotos/Fundo\ genesis.jpeg);
     background-repeat: no-repeat;
@@ -24,21 +22,238 @@ H1{
     font-size: 21px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.div1 li a {
+    text-decoration: none;
+    color: white;
+}
+  
 .div2{
     color: #3B3233;
     justify-content: center;
     text-align: center;
-    margin: 270px 0 0 250px;
+    margin: 230px 0 0 250px;
     font-size: 21px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2 a {
+    text-decoration: none;
+}
+.div2insta{
+    color: #3B3233;
+    width: 33px;
+    opacity: 1;
+    text-decoration: none;
 }
 .div2what{
     color: #3B3233;
     width: 33px;
     opacity: 1;
+    text-decoration: none;
 }
 .div2email{
     color: #3B3233;
     width: 33px;
     opacity: 1;
+}
+/* style da pagina manutencao */
+
+body {
+    overflow-y: hidden;
+}
+
+.bdman{
+    position: relative;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.butre{
+    margin-left: 2%;
+}
+   
+.h2man{
+    color: whitesmoke;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.secman{
+    color: white;
+    margin-left: 5%;
+    margin-top: 14%;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lizama{
+    width: 33px;
+    opacity: 1;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+
+.lizama1{
+    color: white;
+    text-decoration: none;
+}
+
+/* Style da pagina redes */
+
+
+.bdre{
+    position: relative;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.butre{
+    margin-left: 2%;
+}
+
+.h2re{
+    color: white;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.secre{
+    color: white;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lizare{
+    width: 33px;
+    opacity: 1;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+
+.lizare1{
+    color: white;
+    text-decoration: none;
+}
+
+/* Style da pagina camera */
+
+.bdca{
+    position: relative;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.butca{
+    margin-left: 2%;
+}
+
+.h2ca{
+    color: white;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.secca{
+    color: white;
+    margin-left: 2%;
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lizaca{
+    color: white;
+    width: 33px;
+    opacity: 1;
+    margin-top: 8%;
+    margin-left: 40%;
+}
+
+.lizaca1{
+    color: white;
+    text-decoration: none;
+}
+
+/* Style da pagina data center */
+
+.bdda{
+    position: relative;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.butda{
+    margin-left: 2%;
+}
+
+.h2da{
+    color: white;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.secda{
+    color: white;
+    margin-left: 2%;
+    margin-top: 13%;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lizada{
+    width: 33px;
+    opacity: 1;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.lizada1{
+    color: white;
+    text-decoration: none;
 }
